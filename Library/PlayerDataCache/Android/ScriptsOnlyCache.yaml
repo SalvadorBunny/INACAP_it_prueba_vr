@@ -2,8 +2,6 @@ ScriptsOnlyBuild:
   usedScripts:
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -94,6 +92,90 @@ ScriptsOnlyBuild:
     - Vuforia.VuforiaConfiguration/VuforiaRuntimeResources
     - Vuforia.VuforiaConfiguration/WebCamConfiguration
   methodsToPreserve:
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -304,37 +386,35 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16722}
-    - Class: 114
       Script: {instanceID: 16724}
     - Class: 114
-      Script: {instanceID: 16766}
+      Script: {instanceID: 16726}
     - Class: 114
-      Script: {instanceID: 16888}
+      Script: {instanceID: 16768}
     - Class: 114
-      Script: {instanceID: 17810}
+      Script: {instanceID: 16890}
     - Class: 114
-      Script: {instanceID: 18126}
+      Script: {instanceID: 17812}
     - Class: 114
-      Script: {instanceID: 18174}
+      Script: {instanceID: 18128}
     - Class: 114
-      Script: {instanceID: 18414}
+      Script: {instanceID: 18176}
     - Class: 114
-      Script: {instanceID: 18582}
+      Script: {instanceID: 18416}
     - Class: 114
-      Script: {instanceID: 19464}
+      Script: {instanceID: 18584}
     - Class: 114
       Script: {instanceID: 19466}
     - Class: 114
       Script: {instanceID: 19468}
     - Class: 114
-      Script: {instanceID: 19512}
+      Script: {instanceID: 19470}
     - Class: 114
       Script: {instanceID: 19514}
     - Class: 114
-      Script: {instanceID: 19556}
+      Script: {instanceID: 19516}
     - Class: 114
-      Script: {instanceID: 19562}
+      Script: {instanceID: 19558}
     - Class: 114
       Script: {instanceID: 19564}
     - Class: 114
@@ -342,21 +422,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 19568}
     - Class: 114
-      Script: {instanceID: 19590}
+      Script: {instanceID: 19570}
     - Class: 114
       Script: {instanceID: 19592}
     - Class: 114
-      Script: {instanceID: 19598}
+      Script: {instanceID: 19594}
     - Class: 114
-      Script: {instanceID: 20382}
+      Script: {instanceID: 19600}
     - Class: 114
-      Script: {instanceID: 20428}
+      Script: {instanceID: 20384}
     - Class: 114
-      Script: {instanceID: 20734}
+      Script: {instanceID: 20430}
     - Class: 114
-      Script: {instanceID: 21970}
+      Script: {instanceID: 20736}
     - Class: 114
-      Script: {instanceID: 22424}
+      Script: {instanceID: 21972}
+    - Class: 114
+      Script: {instanceID: 22426}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -364,6 +446,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}

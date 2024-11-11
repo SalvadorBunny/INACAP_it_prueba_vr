@@ -4,7 +4,7 @@
             "outputFile": "com.DefaultCompany.PruebaVR.launcher-merged_res-6:/values-v30_values-v30.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\informatica6\\Documents\\PruebaVR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values-v30\\values-v30.xml",
+                    "source": "C:\\Users\\informatica6\\Documents\\INACAP_it_prueba_vr\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values-v30\\values-v30.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",
@@ -19,7 +19,7 @@
             "outputFile": "com.DefaultCompany.PruebaVR.launcher-merged_res-6:/values-v21_values-v21.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\informatica6\\Documents\\PruebaVR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\informatica6\\Documents\\INACAP_it_prueba_vr\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -35,24 +35,7 @@
             "outputFile": "com.DefaultCompany.PruebaVR.launcher-merged_res-6:/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\informatica6\\.gradle\\caches\\transforms-3\\eb10837eba75ce62ce08bf9f456f9973\\transformed\\jetified-VuforiaEngine\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "79",
-                        "endOffsets": "130"
-                    },
-                    "to": {
-                        "startLines": "11",
-                        "startColumns": "4",
-                        "startOffsets": "538",
-                        "endColumns": "79",
-                        "endOffsets": "613"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\informatica6\\Documents\\PruebaVR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values\\values.xml",
+                    "source": "C:\\Users\\informatica6\\Documents\\INACAP_it_prueba_vr\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,11,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -71,7 +54,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\informatica6\\Documents\\PruebaVR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\informatica6\\Documents\\INACAP_it_prueba_vr\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "2,2",
@@ -86,6 +69,23 @@
                         "endColumns": "45,67",
                         "endOffsets": "465,533"
                     }
+                },
+                {
+                    "source": "C:\\Users\\informatica6\\.gradle\\caches\\transforms-3\\eb10837eba75ce62ce08bf9f456f9973\\transformed\\jetified-VuforiaEngine\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "79",
+                        "endOffsets": "130"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "538",
+                        "endColumns": "79",
+                        "endOffsets": "613"
+                    }
                 }
             ]
         },
@@ -93,7 +93,7 @@
             "outputFile": "com.DefaultCompany.PruebaVR.launcher-merged_res-6:/values-v28_values-v28.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\informatica6\\Documents\\PruebaVR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\informatica6\\Documents\\INACAP_it_prueba_vr\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -109,7 +109,7 @@
             "outputFile": "com.DefaultCompany.PruebaVR.launcher-merged_res-6:/values-v31_values-v31.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\informatica6\\Documents\\PruebaVR\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values-v31\\values-v31.xml",
+                    "source": "C:\\Users\\informatica6\\Documents\\INACAP_it_prueba_vr\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values-v31\\values-v31.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8C70BD00-EDC5-F419-625E-E20C0CDE8C9D}</ProjectGuid>
+    <ProjectGuid>{2A746882-81A0-5677-EAD9-75DC7537E6F4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,9 +61,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\VuforiaLicense.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\Resources\alpha.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
