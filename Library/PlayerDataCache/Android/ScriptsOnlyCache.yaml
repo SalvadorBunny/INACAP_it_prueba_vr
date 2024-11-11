@@ -200,6 +200,51 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
+    methodName: OnCaptureCreationError
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnCaptureStarted
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
+    methodName: OnCaptureStarted
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnCaptureStopped
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
+    methodName: OnCaptureStatusInfoUpdated
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnGenerationStarted
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
+    methodName: OnGenerationError
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnGenerationProgressUpdated
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnGenerationRemainingTimeUpdated
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnGenerationCompleted
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
+    methodName: OnGenerationCompleted
   - assembly: Vuforia.Unity.Engine
     fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
     methodName: OnCaptureCreationError
@@ -254,6 +299,27 @@ ScriptsOnlyBuild:
   - assembly: Vuforia.Unity.Engine
     fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
     methodName: OnTargetNameSet
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnResume
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnPause
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.AreaTargetCaptureBehaviour
+    methodName: StartCapture
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.AreaTargetCaptureBehaviour
+    methodName: StopCapture
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnTargetNameSet
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnTargetNameChanged
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -278,60 +344,6 @@ ScriptsOnlyBuild:
   - assembly: Vuforia.Unity.Engine
     fullTypeName: Vuforia.SessionRecorderBehaviour
     methodName: ShareRecording
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
-    methodName: OnCaptureCreationError
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
-    methodName: OnCaptureStarted
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
-    methodName: OnCaptureStarted
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
-    methodName: OnCaptureStopped
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
-    methodName: OnCaptureStatusInfoUpdated
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
-    methodName: OnGenerationStarted
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
-    methodName: OnGenerationError
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
-    methodName: OnGenerationProgressUpdated
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
-    methodName: OnGenerationRemainingTimeUpdated
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
-    methodName: OnGenerationCompleted
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
-    methodName: OnGenerationCompleted
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.AreaTargetCaptureBehaviour
-    methodName: StartCapture
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.AreaTargetCaptureBehaviour
-    methodName: StopCapture
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
-    methodName: OnPause
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
-    methodName: OnResume
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
-    methodName: OnTargetNameChanged
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
-    methodName: OnTargetNameSet
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -386,59 +398,59 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16726}
+      Script: {instanceID: 16774}
     - Class: 114
-      Script: {instanceID: 16728}
+      Script: {instanceID: 16896}
     - Class: 114
-      Script: {instanceID: 16770}
+      Script: {instanceID: 17818}
     - Class: 114
-      Script: {instanceID: 16892}
+      Script: {instanceID: 18134}
     - Class: 114
-      Script: {instanceID: 17814}
+      Script: {instanceID: 18182}
     - Class: 114
-      Script: {instanceID: 18130}
+      Script: {instanceID: 18422}
     - Class: 114
-      Script: {instanceID: 18178}
+      Script: {instanceID: 18590}
     - Class: 114
-      Script: {instanceID: 18418}
+      Script: {instanceID: 19466}
     - Class: 114
-      Script: {instanceID: 18586}
+      Script: {instanceID: 19474}
     - Class: 114
-      Script: {instanceID: 19468}
+      Script: {instanceID: 19476}
     - Class: 114
-      Script: {instanceID: 19470}
+      Script: {instanceID: 19478}
     - Class: 114
-      Script: {instanceID: 19472}
+      Script: {instanceID: 19522}
     - Class: 114
-      Script: {instanceID: 19516}
-    - Class: 114
-      Script: {instanceID: 19518}
-    - Class: 114
-      Script: {instanceID: 19560}
+      Script: {instanceID: 19524}
     - Class: 114
       Script: {instanceID: 19566}
     - Class: 114
-      Script: {instanceID: 19568}
-    - Class: 114
-      Script: {instanceID: 19570}
-    - Class: 114
       Script: {instanceID: 19572}
     - Class: 114
-      Script: {instanceID: 19594}
+      Script: {instanceID: 19574}
     - Class: 114
-      Script: {instanceID: 19596}
+      Script: {instanceID: 19576}
+    - Class: 114
+      Script: {instanceID: 19578}
+    - Class: 114
+      Script: {instanceID: 19600}
     - Class: 114
       Script: {instanceID: 19602}
     - Class: 114
-      Script: {instanceID: 20386}
+      Script: {instanceID: 19608}
     - Class: 114
-      Script: {instanceID: 20432}
+      Script: {instanceID: 20392}
     - Class: 114
-      Script: {instanceID: 20738}
+      Script: {instanceID: 20438}
     - Class: 114
-      Script: {instanceID: 21974}
+      Script: {instanceID: 20744}
     - Class: 114
-      Script: {instanceID: 22428}
+      Script: {instanceID: 21052}
+    - Class: 114
+      Script: {instanceID: 21982}
+    - Class: 114
+      Script: {instanceID: 22436}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -460,18 +472,6 @@ ScriptsOnlyBuild:
     - Class: 225
       Script: {instanceID: 0}
   scriptHashData:
-  - hash:
-      serializedVersion: 2
-      Hash: a2d14ea68e172d2299361f2b482ddfb0
-    assemblyName: Vuforia.Unity.Engine.dll
-    namespaceName: Vuforia
-    className: AnchorBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 540882762544409cc4530e60db00e951
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: CanvasScaler
   - hash:
       serializedVersion: 2
       Hash: 55060a7bf226ac385ce19ebd450f199f
@@ -1248,6 +1248,12 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreak2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: a2d14ea68e172d2299361f2b482ddfb0
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AnchorBehaviour
+  - hash:
+      serializedVersion: 2
       Hash: 324b551684704280f05cbcf677e0db78
     assemblyName: Vuforia.Unity.Engine.dll
     namespaceName: Vuforia
@@ -1798,6 +1804,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.State
     namespaceName: Unity.VisualScripting
     className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 540882762544409cc4530e60db00e951
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
   - hash:
       serializedVersion: 2
       Hash: ef38c1407dba8c1f5d69f5db61a694fe
@@ -2851,4 +2863,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/informatica6/Documents/PruebaVR/Build/AppAR.apk
+  playerPath: C:/Users/informatica1/Documents/INACAP_it_prueba_vr/Build/AppAR.apk
