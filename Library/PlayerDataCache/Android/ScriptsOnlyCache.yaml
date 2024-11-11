@@ -246,6 +246,51 @@ ScriptsOnlyBuild:
     fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
     methodName: OnGenerationCompleted
   - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.AreaTargetCaptureBehaviour
+    methodName: StartCapture
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.AreaTargetCaptureBehaviour
+    methodName: StopCapture
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnPause
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnResume
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnTargetNameChanged
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnTargetNameSet
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.AreaTargetCaptureBehaviour
+    methodName: DestroyCapture
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Selectable
+    methodName: set_interactable
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
+    methodName: OnGenerateClicked
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.AreaTargetCaptureBehaviour
+    methodName: CancelTargetGeneration
+  - assembly: Vuforia.Unity.Engine
+    fullTypeName: Vuforia.SessionRecorderBehaviour
+    methodName: ShareRecording
+  - assembly: Vuforia.Unity.Engine
     fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
     methodName: OnCaptureCreationError
   - assembly: Vuforia.Unity.Engine
@@ -299,51 +344,6 @@ ScriptsOnlyBuild:
   - assembly: Vuforia.Unity.Engine
     fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
     methodName: OnTargetNameSet
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
-    methodName: OnResume
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
-    methodName: OnPause
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.AreaTargetCaptureBehaviour
-    methodName: StartCapture
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.AreaTargetCaptureBehaviour
-    methodName: StopCapture
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
-    methodName: OnTargetNameSet
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
-    methodName: OnTargetNameChanged
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.AreaTargetCaptureBehaviour
-    methodName: DestroyCapture
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Selectable
-    methodName: set_interactable
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.Internal.AreaTargetCaptureOverlayCanvas
-    methodName: OnGenerateClicked
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.AreaTargetCaptureBehaviour
-    methodName: CancelTargetGeneration
-  - assembly: Vuforia.Unity.Engine
-    fullTypeName: Vuforia.SessionRecorderBehaviour
-    methodName: ShareRecording
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -398,6 +398,10 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 16730}
+    - Class: 114
+      Script: {instanceID: 16732}
+    - Class: 114
       Script: {instanceID: 16774}
     - Class: 114
       Script: {instanceID: 16896}
@@ -412,19 +416,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18590}
     - Class: 114
-      Script: {instanceID: 19466}
+      Script: {instanceID: 19472}
     - Class: 114
       Script: {instanceID: 19474}
     - Class: 114
       Script: {instanceID: 19476}
     - Class: 114
-      Script: {instanceID: 19478}
+      Script: {instanceID: 19520}
     - Class: 114
       Script: {instanceID: 19522}
     - Class: 114
-      Script: {instanceID: 19524}
+      Script: {instanceID: 19564}
     - Class: 114
-      Script: {instanceID: 19566}
+      Script: {instanceID: 19570}
     - Class: 114
       Script: {instanceID: 19572}
     - Class: 114
@@ -432,25 +436,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 19576}
     - Class: 114
-      Script: {instanceID: 19578}
+      Script: {instanceID: 19598}
     - Class: 114
       Script: {instanceID: 19600}
     - Class: 114
-      Script: {instanceID: 19602}
+      Script: {instanceID: 19606}
     - Class: 114
-      Script: {instanceID: 19608}
+      Script: {instanceID: 20390}
     - Class: 114
-      Script: {instanceID: 20392}
+      Script: {instanceID: 20436}
     - Class: 114
-      Script: {instanceID: 20438}
+      Script: {instanceID: 20742}
     - Class: 114
-      Script: {instanceID: 20744}
+      Script: {instanceID: 21978}
     - Class: 114
-      Script: {instanceID: 21052}
-    - Class: 114
-      Script: {instanceID: 21982}
-    - Class: 114
-      Script: {instanceID: 22436}
+      Script: {instanceID: 22432}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -472,6 +472,18 @@ ScriptsOnlyBuild:
     - Class: 225
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: a2d14ea68e172d2299361f2b482ddfb0
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AnchorBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 540882762544409cc4530e60db00e951
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
   - hash:
       serializedVersion: 2
       Hash: 55060a7bf226ac385ce19ebd450f199f
@@ -1248,12 +1260,6 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreak2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: a2d14ea68e172d2299361f2b482ddfb0
-    assemblyName: Vuforia.Unity.Engine.dll
-    namespaceName: Vuforia
-    className: AnchorBehaviour
-  - hash:
-      serializedVersion: 2
       Hash: 324b551684704280f05cbcf677e0db78
     assemblyName: Vuforia.Unity.Engine.dll
     namespaceName: Vuforia
@@ -1804,12 +1810,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.State
     namespaceName: Unity.VisualScripting
     className: StateGraphAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 540882762544409cc4530e60db00e951
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: CanvasScaler
   - hash:
       serializedVersion: 2
       Hash: ef38c1407dba8c1f5d69f5db61a694fe
