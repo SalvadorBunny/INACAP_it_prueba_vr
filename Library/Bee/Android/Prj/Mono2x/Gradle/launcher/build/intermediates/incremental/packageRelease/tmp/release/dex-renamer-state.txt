@@ -1,4 +1,4 @@
-#Mon Nov 11 12:22:32 CLST 2024
+#Mon Nov 11 12:59:40 CLST 2024
 base.0=C\:\\Users\\informatica6\\Documents\\INACAP_it_prueba_vr\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
