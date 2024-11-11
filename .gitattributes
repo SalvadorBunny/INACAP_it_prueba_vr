@@ -1,0 +1,8 @@
+Packages/com.ptc.vuforia.engine-10.27.3.tgz filter=lfs diff=lfs merge=lfs -text
+git[[:space:]]lfs[[:space:]]track[[:space:]]Packages/com.ptc.vuforia.engine-10.27.3.tgz
+git[[:space:]]lfs[[:space:]]track[[:space:]]--filename[[:space:]]Packages/com.ptc.vuforia.engine-10.27.3.tgz[[:space:]]
+git[[:space:]]lfs[[:space:]]install
+git[[:space:]]install[[:space:]]lfs
+git[[:space:]]lfs[[:space:]]track[[:space:]]Packages/com.ptc.vuforia.engine-10.27.3.tgz filter=lfs diff=lfs merge=lfs -text
+filename filter=lfs diff=lfs merge=lfs -text
+Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
